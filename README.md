@@ -13,13 +13,13 @@ Clone the repo and run
 
 This will build the static page into the ``build`` folder.
 
-## Maintenance
+## Development
 
 Start watch task to build whenever the files in ``src`` are changed.
 
     $ npm run watch
 
-## Project structure
+### Project structure
 
 | What        | Source           |
 | ------------- |-------------|
