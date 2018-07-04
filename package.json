@@ -13,7 +13,7 @@
     "watch": "npm-watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf build && mkdir build/ && npm run copyall --silent",
-    "copyall": "npm run copystyles && npm run copyhtml && npm run copyassets && echo Build complete 🎈",
+    "copyall": "npm run copystyles && npm run copyhtml && npm run copyassets && timestamp=$(date \"+%H:%M:%S\"); echo [$timestamp] Build complete 🎈",
     "copystyles": "mkdir build/css && cp -rf ./node_modules/kungbib-styles/dist/css/ ./build/css",
     "copyhtml": "cp -rf ./src/ ./build/",
     "copyassets": "mkdir build/assets && cp ./node_modules/kungbib-styles/dist/assets/kb_logo_black.svg ./build/assets/kb_logo_black.svg"
