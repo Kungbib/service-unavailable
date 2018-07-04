@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "A static page to display when everything goes wrong",
   "main": "index.js",
+  "watch": {
+    "build": {
+      "patterns": "src",
+      "extensions": "js,html,css"
+    }
+  },
   "scripts": {
+    "watch": "npm-watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf build && mkdir build/ && npm run copystyles && npm run copyhtml && npm run copyassets",
+    "build": "rm -rf build && mkdir build/ && npm run copystyles && npm run copyhtml && npm run copyassets && echo Build complete",
     "copystyles": "mkdir build/css && cp -rf ./node_modules/kungbib-styles/dist/css/ ./build/css",
     "copyhtml": "cp -rf ./src/ ./build/",
     "copyassets": "mkdir build/assets && cp ./node_modules/kungbib-styles/dist/assets/kb_logo_black.svg ./build/assets/kb_logo_black.svg"
@@ -21,6 +28,7 @@
   },
   "homepage": "https://github.com/Kungbib/service-unavailable#readme",
   "dependencies": {
-    "kungbib-styles": "^1.2.4"
+    "kungbib-styles": "^1.2.4",
+    "npm-watch": "^0.3.0"
   }
 }

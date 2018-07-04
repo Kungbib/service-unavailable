@@ -15,7 +15,11 @@ This will build the static page into the ``build`` folder.
 
 ## Maintenance
 
-Change the files described below.
+Start watch task to build whenever the files in ``src`` are changed.
+
+    $ npm run watch
+
+## Project structure
 
 | What        | Source           |
 | ------------- |-------------|
