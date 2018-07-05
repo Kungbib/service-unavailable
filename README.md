@@ -23,7 +23,7 @@ Start watch task to build whenever the files in ``src`` are changed.
 
 | What        | Source           |
 | ------------- |-------------|
-| HTML      | ``./src/index.html`` |
-| CSS      | [kungbib-styles package](https://www.npmjs.com/package/kungbib-styles) and ``./src/style.css``      |
-| Assets      | [kungbib-styles package](https://www.npmjs.com/package/kungbib-styles) |
+| Layout      | ``./src/index.html`` |
+| Styling      | [kungbib-styles package](https://www.npmjs.com/package/kungbib-styles) and ``./src/styles/style.scss``      |
+| Assets      | [kungbib-styles package](https://www.npmjs.com/package/kungbib-styles) and [Font Awesome](https://fontawesome.com/) |
 | JavaScript      | There is none      |
