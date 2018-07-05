@@ -13,8 +13,9 @@
     "watch": "npm-watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf build && mkdir build/ && npm run copyall --silent",
-    "copyall": "npm run copyhtml && npm run buildstyles && npm run copyassets && timestamp=$(date \"+%H:%M:%S\"); echo [$timestamp] Build complete 🎈",
+    "copyall": "npm run copyhtml && npm run buildstyles && npm run copystyles && npm run copyassets && timestamp=$(date \"+%H:%M:%S\"); echo [$timestamp] Build complete 🎈",
     "copyhtml": "cp ./src/index.html ./build/index.html",
+    "copystyles": "cp ./node_modules/kungbib-styles/dist/css/kb-style.css ./build/css/kb-style.css",
     "buildstyles": "mkdir build/css && npm-sass ./src/styles/style.scss > ./build/css/custom.css",
     "copyassets": "mkdir build/assets && cp ./node_modules/kungbib-styles/dist/assets/kb_logo_black.svg ./build/assets/kb_logo_black.svg && npm run copyicons",
     "copyicons": "cp ./node_modules/@fortawesome/fontawesome-free/css/all.css ./build/css/icons.css && mkdir build/webfonts && cp -rf ./node_modules/@fortawesome/fontawesome-free/webfonts ./build"
