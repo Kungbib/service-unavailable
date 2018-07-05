@@ -1,7 +1,17 @@
 @import "./node_modules/kungbib-styles/dist/css/kb-style";
 
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 22px;
+}
+
 .logotype {
   margin-top: 3em;
+  &.sticky {
+    position: fixed;
+  }
 }
 
 .search-services {
