@@ -10,25 +10,30 @@
     <title>Kungliga biblioteket</title>
 
     <!-- Custom styles for this template -->
-    <link href="./css/kb-style.css" rel="stylesheet">
-    <link href="./style.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+    <link href="./css/icons.css" rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
 
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 visible-xs visible-sm text-center">
           <img class="logotype logo-large" src="./assets/kb_logo_black.svg">
         </div>
-        <div class="col-md-7">
-          <h1>Välkommen till Kungliga biblioteket</h1>
-          <p>
-              För närvarande ligger tjänsten du vill nå nere.
-              Vi arbetar för att åtgärda problemen så snabbt som möjligt och hoppas att det inte ställer till det för dig som besöker oss.
-              Om problemet skulle bli långvarigt kan du hitta aktuell information i KB:s grupp på <a href="https://www.facebook.com/kungligabiblioteket/">Facebook</a>.
-          </p>
-          <div class="col-md-6">
+        <div class="col-md-2 visible-md visible-lg">
+            <img class="logotype logo-large" src="./assets/kb_logo_black.svg">
+          </div>
+        <div class="col-md-7 main row">
+          <div class="col-md-12">
+            <h1>Välkommen till Kungliga biblioteket</h1>
+            <p>
+                För närvarande ligger tjänsten du vill nå nere.
+                Vi arbetar för att åtgärda problemen så snabbt som möjligt och hoppas att det inte ställer till det för dig som besöker oss.
+                Om problemet skulle bli långvarigt kan du hitta aktuell information i KB:s grupp på <a href="https://www.facebook.com/kungligabiblioteket/">Facebook</a>.
+            </p>
+          </div>
+          <div class="col-md-6 open-times">
               <h2>KB:s öppettider</h2>
               <p>
               <table class="table">
@@ -48,51 +53,58 @@
               Vissa salar och expeditioner kan ha andra öppettider.
               </p>
             </div>
-          <div class="col-md-6">
-            <h2>KB i andra kanaler</h2>
-            <ul>
-              <li><a href="https://www.facebook.com/kungligabiblioteket/">Facebook</a></li>
-              <li><a href="https://twitter.com/kungbib">Twitter</a></li>
-              <li><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG3tvygf_Yu4gAAAWMqyndwX_UWVVKrnQ_-n5N87bRYs6ZYyoA6sGMPXbUFKWMLpEEaYpw5ilfq9dPuojzmO-Cv0CCqy2v0WIhIaSTEUxpG-W0EyKR3gUkNdplefgD7YuxrO3I=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F277817%2F">Linkedin</a></li>
-              <li><a href="https://www.youtube.com/channel/UCYOiMa7D6702FIQy1BY_1ig">Youtube</a></li>
+          <div class="col-md-6 social-media">
+            <h2>KB i sociala medier</h2>
+            <ul class="row">
+              <li class="col-md-6"><a href="https://www.facebook.com/kungligabiblioteket/">
+                <i class="fab fa-facebook"></i> Facebook</a>
+              </li>
+              <li class="col-md-6"><a href="https://twitter.com/kungbib">
+                <i class="fab fa-twitter"></i> Twitter</a>
+              </li>
+              <li class="col-md-6"><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG3tvygf_Yu4gAAAWMqyndwX_UWVVKrnQ_-n5N87bRYs6ZYyoA6sGMPXbUFKWMLpEEaYpw5ilfq9dPuojzmO-Cv0CCqy2v0WIhIaSTEUxpG-W0EyKR3gUkNdplefgD7YuxrO3I=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F277817%2F">
+                <i class="fab fa-linkedin"></i> Linkedin</a>
+              </li>
+              <li class="col-md-6"><a href="https://www.youtube.com/channel/UCYOiMa7D6702FIQy1BY_1ig">
+                <i class="fab fa-youtube"></i> Youtube</a>
+              </li>
             </ul>
           </div>
+          <div class="col-md-12 search-services">
+            <p>
+              <h2>Vanliga tjänster</h2>
+              <ul class="row">
+                <li class="col-md-6"><a href="https://libris.kb.se">Libris</a>
+                Nationell bibliotekskatalog</li>
+                <li class="col-md-6"><a href="https://regina.kb.se">Regina</a>
+                Katalog över tryckt material</li>
+                <li class="col-md-6"><a href="https://smdb.kb.se">Svensk mediedatabas</a>
+                Katalog för ljud, rörlig bild och datorspel</li>
+                <li class="col-md-6"><a href="https://tidningar.kb.se">Svenska dagstidningar</a>
+                Dagstidningar från 1600-talet och framåt</li>
+              </ul>
+            </p>
+          </div>
         </div>
-        <div class="col-md-3">
-          <p>
-            <h2>Söktjänster</h2>
+        <div class="col-md-3 contact">
+            <h2>Kontakt</h2>
             <dl>
-              <dt><a href="https://libris.kb.se">Libris</a></dt>
-              <dl>Nationell bibliotekskatalog</dl>
-              <dt><a href="https://regina.kb.se">Regina</a></dt>
-              <dl>Katalog över tryckt material</dl>
-              <dt><a href="https://smdb.kb.se">Svensk mediedatabas</a></dt>
-              <dl>Katalog för ljud, rörlig bild och datorspel</dl>
-              <dt><a href="https://tidningar.kb.se">Svenska dagstidningar</a></dt>
-              <dl>Dagstidningar från 1600-talet och framåt</dl>
+                <dd><a href="https://www.kb.se">www.kb.se</a></dd>
+                <dt>Telefon</dt>
+                <dd>010-709 30 00</dd>
+                <dt>E-post</dt>
+                <dd>info@kb.se</dd>
+                <dt>Presskontakt</dt>
+                <dd>
+                  Telefon: 070-007 33 21<br>
+                  E-post: press@kb.se
+                </dd>
+                <dt>Besöksadress</dt>
+                <dd>Humlegårdsgatan 26, Humlegården, Stockholm</dd>
+                <dt>Postadress</dt>
+                <dd>Kungliga biblioteket, Box 5039 102 41 Stockholm</dd>
             </dl>
-          </p>
-        </div>
-        <div class="col-md-3">
-          <h2>Kontakt</h2>
-          <dl>
-              <dt>Telefon</dt>
-              <dd>010-709 30 00</dd>
-              <dt>E-post</dt>
-              <dd>info@kb.se</dd>
-              <dt>Presskontakt</dt>
-              <dd>
-                Telefon: 070-007 33 21<br>
-                E-post: press@kb.se
-              </dd>
-              <dt>Besöksadress</dt>
-              <dd>Humlegårdsgatan 26, Humlegården, Stockholm</dd>
-              <dt>Postadress</dt>
-              <dd>Kungliga biblioteket, Box 5039 102 41 Stockholm</dd>
-          </dl>
-        </div>
-
-
+          </div>
       </div>
     </div> <!-- /container -->
 

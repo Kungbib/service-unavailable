@@ -1,0 +1,34 @@
+@import "./node_modules/kungbib-styles/dist/css/kb-style";
+
+.logotype {
+  margin-top: 3em;
+}
+
+.search-services {
+  ul {
+    padding-left: 0px;
+    list-style: none;
+    li {
+      margin-bottom: 0.5em;
+      a {
+        display: block;
+      }
+    }
+  }
+}
+.social-media {
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    i {
+      color: black;
+    }
+  }
+}
+
+.contact {
+  dt {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+  }
+}
