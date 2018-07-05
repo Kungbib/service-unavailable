@@ -17,7 +17,7 @@
     "copyhtml": "cp ./src/index.html ./build/index.html",
     "buildstyles": "mkdir build/css && npm-sass ./src/styles/style.scss > ./build/css/custom.css",
     "copyassets": "mkdir build/assets && cp ./node_modules/kungbib-styles/dist/assets/kb_logo_black.svg ./build/assets/kb_logo_black.svg && npm run copyicons",
-    "copyicons": "cp ./node_modules/@fortawesome/fontawesome-free/css/all.css ./build/css/icons.css && mkdir build/webfonts && cp -rf ./node_modules/@fortawesome/fontawesome-free/webfonts/ ./build/webfonts"
+    "copyicons": "cp ./node_modules/@fortawesome/fontawesome-free/css/all.css ./build/css/icons.css && mkdir build/webfonts && cp -rf ./node_modules/@fortawesome/fontawesome-free/webfonts ./build"
   },
   "repository": {
     "type": "git",
